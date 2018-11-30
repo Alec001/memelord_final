@@ -1,0 +1,203 @@
+.active {
+		    background-color: #4CAF50;
+		    color: white;
+		}
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		    background-color: #333333;
+		}
+
+		li {
+		    float: left;
+		}
+
+		li a {
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding: 16px;
+		    text-decoration: none;
+		}
+
+		li a:hover {
+		    background-color: #ddd;
+		}
+		h2,h3,h4,h5 {
+		   text-align: center;
+		}
+		#fixedbar ul li a, #fixedbar ul li a:visited {
+		    color: #00f;
+            
+		}
+        
+        #name1_error {
+            color: #FF0000;
+            display: none;
+        }
+        #email1_error {
+            color: #FF0000;
+            display: none;
+        }
+        #msg_error {
+            color: #FF0000;
+            display: none;
+        }
+        
+        /* When the pattern is matched */
+input[type=text]:valid {
+    color: green;
+}
+        input[type=email]:valid {
+    color: green;
+}
+
+/* Unmatched */
+input[type=text]:invalid {
+    color: red;
+}
+        input[type=email]:invalid {
+    color: red;
+}
+        #reply_error {
+            display: none;
+            color: red;
+        }
+        
+
+.status-available{color:#2FC332;}
+.status-not-available{color:#D60202;}
+        
+.error {color: #FF0000}
+
+#user {
+text-align:right ;width:99%; display:block; margin-bottom:5px;
+}
+
+
+#mobile {
+    position:fixed;
+}
+
+#desk {
+   position: fixed; bottom:93%;
+}
+
+#session {
+    position:fixed; bottom:0%;
+}
+
+  #p1 {display: none; margin : 0 auto;}
+        #p2 {display: none; margin : 0 auto;}
+        #p3 {display: none; margin : 0 auto;}
+        #p4 {display: none; margin : 0 auto;}
+        #p5 {display: none; margin : 0 auto;}
+        
+        #loader {
+            display: none; margin : 0 auto;
+        }
+        
+        #status2 {
+display: none;
+        }
+        #status3 {
+            display: none;
+        }
+        
+        /* Container */
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* Registration */
+#div_reg{
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 470px;
+    height: 370px;
+    box-shadow: 0px 2px 2px 0px  gray;
+    margin: 0 auto;
+}
+
+#div_reg h1{
+    margin-top:0px;
+    font-weight: normal;
+    padding:10px;
+    background-color:cornflowerblue;
+    color:white;
+    font-family:sans-serif;
+}
+
+#div_reg div{
+    clear: both;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#div_reg .textbox{
+    width: 96%;
+    padding: 7px;
+}
+
+#div_reg input[type=submit]{
+    padding: 7px;
+    width: 100px;
+    background-color: lightseagreen;
+    border: 0px;
+    color: white;
+}
+
+/* Response */
+.response{
+    padding: 6px;
+    display: none;
+}
+
+.not-exists{
+    color: green;
+}
+
+.exists{
+    color: red;
+}
+        
+        .cen {
+            margin: 0 auto;
+            
+        }  
+        
+        #userc {
+            display: none;
+            margin: 0 auto;
+            
+        }
+        
+        
+        .modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://sampsonresume.com/labs/pIkfp.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
